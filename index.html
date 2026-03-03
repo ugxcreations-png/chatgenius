@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Omni View Journal — A multidisciplinary journal exploring technology, science, culture, and the ideas shaping our world.">
+  <title>Omni View Journal</title>
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="logo-link">
+        <img src="images/logo.svg" alt="Omni View Journal logo" class="logo-img">
+        <span class="site-title">Omni View <span class="highlight">Journal</span></span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="/" class="active">Home</a></li>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#newsletter">Subscribe</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <h1>Welcome to Omni View Journal</h1>
+    <p>A multidisciplinary publication exploring the intersections of technology, science, culture, and the ideas shaping our world. See everything. Understand more.</p>
+    <a href="#articles" class="cta-btn">Start Reading</a>
+  </section>
+
+  <!-- ===== Main Content ===== -->
+  <main class="main-content">
+
+    <!-- Featured Article -->
+    <section id="articles">
+      <h2 class="section-heading">Featured</h2>
+      <article class="featured-article">
+        <div class="article-image">Featured Image</div>
+        <div class="article-content">
+          <span class="article-category">Technology</span>
+          <h2><a href="#">The Future of Human-AI Collaboration in Creative Fields</a></h2>
+          <div class="article-meta">
+            <span>By Editorial Team</span>
+            <span>March 3, 2026</span>
+            <span>8 min read</span>
+          </div>
+          <p class="article-excerpt">As artificial intelligence becomes more capable, the relationship between human creativity and machine intelligence is evolving in unexpected ways. We explore how artists, writers, and designers are embracing AI as a collaborative partner rather than a replacement.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Articles Grid -->
+    <section id="categories">
+      <h2 class="section-heading">Latest Articles</h2>
+      <div class="articles-grid">
+
+        <article class="article-card">
+          <div class="card-image bg-science">Science</div>
+          <div class="card-body">
+            <span class="article-category">Science</span>
+            <h3><a href="#">Breakthroughs in Quantum Computing: What 2026 Holds</a></h3>
+            <div class="article-meta">
+              <span>Feb 28, 2026</span>
+              <span>6 min read</span>
+            </div>
+            <p class="article-excerpt">Quantum computing is reaching new milestones in error correction and practical application across industries.</p>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <div class="card-image bg-culture">Culture</div>
+          <div class="card-body">
+            <span class="article-category">Culture</span>
+            <h3><a href="#">The Renaissance of Independent Publishing</a></h3>
+            <div class="article-meta">
+              <span>Feb 25, 2026</span>
+              <span>5 min read</span>
+            </div>
+            <p class="article-excerpt">Independent publishers are finding new audiences through digital platforms, reshaping the literary landscape.</p>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <div class="card-image bg-tech">Technology</div>
+          <div class="card-body">
+            <span class="article-category">Technology</span>
+            <h3><a href="#">Privacy in the Age of Ambient Computing</a></h3>
+            <div class="article-meta">
+              <span>Feb 22, 2026</span>
+              <span>7 min read</span>
+            </div>
+            <p class="article-excerpt">As smart devices become ubiquitous, new frameworks for digital privacy are more important than ever.</p>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <div class="card-image bg-health">Health</div>
+          <div class="card-body">
+            <span class="article-category">Health</span>
+            <h3><a href="#">Personalized Medicine: Tailoring Treatment to Your Genome</a></h3>
+            <div class="article-meta">
+              <span>Feb 19, 2026</span>
+              <span>6 min read</span>
+            </div>
+            <p class="article-excerpt">Advances in genomics are enabling doctors to create highly personalized treatment plans for patients.</p>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <div class="card-image bg-opinion">Opinion</div>
+          <div class="card-body">
+            <span class="article-category">Opinion</span>
+            <h3><a href="#">Why Interdisciplinary Thinking Matters Now More Than Ever</a></h3>
+            <div class="article-meta">
+              <span>Feb 16, 2026</span>
+              <span>4 min read</span>
+            </div>
+            <p class="article-excerpt">The most pressing challenges of our time require thinkers who can bridge the gaps between disciplines.</p>
+          </div>
+        </article>
+
+        <article class="article-card">
+          <div class="card-image bg-world">World</div>
+          <div class="card-body">
+            <span class="article-category">World</span>
+            <h3><a href="#">Sustainable Cities: Lessons from Global Urban Innovation</a></h3>
+            <div class="article-meta">
+              <span>Feb 13, 2026</span>
+              <span>5 min read</span>
+            </div>
+            <p class="article-excerpt">Cities around the world are pioneering new approaches to sustainability, transportation, and urban living.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section id="newsletter" class="newsletter-section">
+      <h2>Stay Informed</h2>
+      <p>Subscribe to our newsletter and never miss an article. Get curated insights delivered to your inbox every week.</p>
+      <form class="newsletter-form" aria-label="Newsletter signup">
+        <input type="email" placeholder="Your email address" required aria-label="Email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-about">
+        <div class="footer-logo">Omni View Journal</div>
+        <p>A multidisciplinary publication dedicated to exploring the ideas and innovations shaping our world. We believe in the power of diverse perspectives.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="#">Technology</a></li>
+          <li><a href="#">Science</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">Opinion</a></li>
+        </ul>
+      </div>
+      <div class="footer-col" id="about">
+        <h4>About</h4>
+        <ul>
+          <li><a href="#">Our Mission</a></li>
+          <li><a href="#">Editorial Team</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Write for Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">RSS Feed</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Omni View Journal. All rights reserved. | <a href="https://omniviewjournal.com">omniviewjournal.com</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
