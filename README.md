@@ -38,3 +38,18 @@ Drop your logo file into the `images/` directory and update the `<img>` tag in `
 ```
 
 Also update the favicon `<link>` in the `<head>` section if using a different format.
+
+## Deployment
+
+This site is deployed automatically to **GitHub Pages** when changes are pushed to the `main` branch.
+
+**To enable deployment:**
+
+1. Go to your repository **Settings → Pages**
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**
+3. Merge this PR into `main` — the workflow will run and deploy the site automatically
+
+Your live site will be available at:
+`https://<your-username>.github.io/chatgenius/`
+
+To use a custom domain (e.g. omniviewjournal.com), configure it in **Settings → Pages → Custom domain**.
