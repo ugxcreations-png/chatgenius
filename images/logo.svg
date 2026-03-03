@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- Stylized eye / omni view symbol -->
+  <circle cx="24" cy="24" r="22" fill="#1a1a2e"/>
+  <ellipse cx="24" cy="24" rx="18" ry="11" fill="none" stroke="#e94560" stroke-width="2"/>
+  <circle cx="24" cy="24" r="7" fill="#e94560"/>
+  <circle cx="24" cy="24" r="3" fill="#1a1a2e"/>
+  <!-- Top arc for "omni" feel -->
+  <path d="M8 18 Q24 4 40 18" fill="none" stroke="#0f3460" stroke-width="2" stroke-linecap="round"/>
+  <!-- Bottom arc -->
+  <path d="M8 30 Q24 44 40 30" fill="none" stroke="#0f3460" stroke-width="2" stroke-linecap="round"/>
+</svg>
